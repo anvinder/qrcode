@@ -66,3 +66,5 @@ if __name__ == "__main__":
     object_qrcode.File_list()
     object_qrcode.dict_items()
     object_qrcode.gen_qrcode()
+
+	
