@@ -1,18 +1,21 @@
 Problem statement: 
-	create a script that can encrypt a given file and create a qr code for it. 
-	The user would need to password to read the file post scanning the QRcode. 
+	create a script/multuple scripts that can encrypt a given file and create a qr code for it. 
+	The user would need a password to read the file/s post scanning the QRcode. 
 
 Here's what the script is intended to do upon completion: 
 
 Read all pdf files in a folder
+
 For each file in folder:
 	check if file is encrypted
-	If not encrypt the file. 
-	Rename the file and append the file name with  "_encrypted". 
+	If not, encrypt the file. 
+	Rename the file and append the file name with  "_encrypted" so for next loop, the script knows this file is already encrypted. 
+	
 For all encrypted files
-	Upload file to cloud
-	Generate a sahred link 
+	Upload file to cloud/ move them to the fodler where your cloud is picking files from.
+	Generate a shared link 
 	Append the link to dictionary (key is the file name: value is the shared link)
+
 For each item in dictionary:
 	create QR Code 
 	Rename QR code to reflect the name of the file
