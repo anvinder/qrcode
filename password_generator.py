@@ -18,5 +18,3 @@ class PasswordGenerator:
 if __name__ == '__main__':
     object_PasswordGenerator = PasswordGenerator()
     object_PasswordGenerator.generate_password()
-
-###
